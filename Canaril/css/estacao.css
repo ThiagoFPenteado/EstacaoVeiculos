@@ -24,3 +24,7 @@
         height: auto !important;
     }
   }
+.background-image-no-repeat{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
