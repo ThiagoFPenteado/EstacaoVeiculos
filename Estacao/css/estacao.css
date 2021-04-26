@@ -1,0 +1,26 @@
+.titleCenter > h2 {
+    text-align: center !important;
+    margin-bottom: 30px;
+}
+.maps > iframe{
+    width: 80%;
+    height: 100% !important;
+    min-height: 300px;
+}
+.tbl{
+    display: table;
+    height: 300px;
+}
+.tbl > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+    .maps > iframe{
+        width: 100% !important;
+        min-height: 300px;
+    }
+    .tbl{
+        height: auto !important;
+    }
+  }
